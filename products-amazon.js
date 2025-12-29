@@ -1,10 +1,18 @@
 const amazonProducts = [
     { id: 1, title: "Pastel Pink Cardigan", price: "$24.99", image: "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?auto=format&fit=crop&w=500", link: "#" },
     { id: 2, title: "Floral Puff Sleeve Dress", price: "$32.00", image: "https://images.unsplash.com/photo-1572804013307-59c6ddb60211?auto=format&fit=crop&w=500", link: "#" },
-    { id: 3, title: "Pastel Pink Crossbody Bag", price: "$18.99", image: "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=500", link: "#" }
+    { id: 3, title: "Pastel Pink Crossbody Bag", price: "$18.99", image: "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=500", link: "#" },
+    // NEW PRODUCT ADDED BELOW
+    { 
+        id: 4, 
+        title: "Aahwan Floral Mini Dress", 
+        price: "₹453", 
+        image: "https://m.media-amazon.com/images/I/810uc+ocbrL._SY741_.jpg", 
+        link: "https://amzn.to/3Lcs3wS" 
+    }
 ];
 
-// Initialize wishlist from Local Storage under the new brand name
+// Load Favorites from Local Storage
 let wishlist = JSON.parse(localStorage.getItem('chicClosetWishlist')) || [];
 
 function renderProducts() {
@@ -46,7 +54,7 @@ function updateWishlistUI() {
             <img src="${p.image}" style="width:60px; height:60px; border-radius:10px; object-fit:cover;">
             <div>
                 <h4 style="margin:0; font-size:14px;">${p.title}</h4>
-                <a href="${p.link}" style="color:var(--primary); font-size:12px; text-decoration:none; font-weight:600;">Shop Now</a>
+                <a href="${p.link}" target="_blank" style="color:var(--primary); font-size:12px; text-decoration:none; font-weight:600;">Shop Now</a>
             </div>
         </div>
     `).join('') : '<p style="text-align:center; opacity:0.5;">No favorites yet! 🤍</p>';
@@ -56,5 +64,4 @@ function toggleWishlist() {
     document.getElementById('wishlist-sidebar').classList.toggle('open');
 }
 
-// Initial Run
 renderProducts();
