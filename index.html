@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Closet | Aesthetic Fashion Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">💜 Chic Closet</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#amazon-finds">Shop</a></li>
+            <li class="wishlist-trigger" onclick="toggleWishlist()">
+                Favorites <span id="wishlist-count">0</span>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="wishlist-sidebar" class="wishlist-sidebar">
+        <div class="wishlist-header">
+            <h3>Your Favorites 💜</h3>
+            <span class="close-wishlist" onclick="toggleWishlist()">&times;</span>
+        </div>
+        <div id="wishlist-items">
+            </div>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Curated with love for you</span>
+            <h1>Chic, Trendy & Pinterest-Perfect Finds</h1>
+            <p>Discover adorable outfits curated for girls who love aesthetics and affordable fashion.</p>
+            <div class="hero-btns">
+                <a href="#amazon-finds" class="btn-gradient">Shop My Picks →</a>
+                <a href="#" class="btn-outline">Read the Blog</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="amazon-finds" class="section">
+        <h2 class="section-title">✨ Trending Amazon Finds</h2>
+        <p class="section-subtitle">Affordable, cute pieces taking over Pinterest right now.</p>
+        <div class="product-grid" id="amazon-grid">
+            </div>
+    </section>
+
+    <section id="pinterest-section" class="pinterest-section">
+        <div class="pinterest-card">
+            <h2 class="section-title">Follow the Aesthetic on Pinterest</h2>
+            <p>Get daily outfit inspiration and aesthetic moodboards.</p>
+            <a href="https://in.pinterest.com/business/hub/" target="_blank" class="pinterest-btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="Pinterest" width="20">
+                Follow @ChicCloset
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>💜 Chic Closet</h3>
+                <p>Your go-to destination for Pinterest-perfect style.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#">Affiliate Disclosure</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <p class="copyright">© 2025 Chic Closet. All rights reserved.</p>
+    </footer>
+
+    <script src="products-amazon.js"></script>
+</body>
+</html>
