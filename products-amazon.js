@@ -1,7 +1,7 @@
 const amazonProducts = [
-    { id: 1, title: "Pastel Pink Cardigan", price: "$24.99", image: "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?auto=format&fit=crop&w=500", link: "#" },
-    { id: 2, title: "Floral Puff Sleeve Dress", price: "$32.00", image: "https://images.unsplash.com/photo-1572804013307-59c6ddb60211?auto=format&fit=crop&w=500", link: "#" },
-    { id: 3, title: "Pastel Pink Crossbody Bag", price: "$18.99", image: "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=500", link: "#" },
+    { id: 1, title: "Aahwan Women's Fit And Flare Midi Dress", price: "₹453", image: "https://m.media-amazon.com/images/I/51F8qaDJTbL._SY741_.jpg", link: "https://amzn.to/4pceDyH" },
+    { id: 2, title: "Flare Solid Summer Beach Square Neck Puff Sleeve Cut Out Waist Mini Dress", price: "₹453", image: "https://m.media-amazon.com/images/I/71-BCekty8L._SY741_.jpg", link: "https://amzn.to/4q0Gx25" },
+    { id: 3, title: "Solid Ruched Detail A-line Mini Dress", price: "₹453", image: "https://m.media-amazon.com/images/I/71dOpB-zcWL._SY741_.jpg", link: "https://amzn.to/44KBJ8r" },
     // NEW PRODUCT ADDED BELOW
     { 
         id: 4, 
@@ -10,7 +10,8 @@ const amazonProducts = [
         image: "https://m.media-amazon.com/images/I/810uc+ocbrL._SY741_.jpg", 
         link: "https://amzn.to/3Lcs3wS" 
     },
-    { id: 5, title: "Aahwan Women's Midi Fit And Flare Dress", price: "₹474", image: "https://m.media-amazon.com/images/I/71Z0bRA01nL._SY741_.jpg", link: "https://amzn.to/3YgIlYA" }
+    { id: 5, title: "Aahwan Women's Midi Fit And Flare Dress", price: "₹474", image: "https://m.media-amazon.com/images/I/71Z0bRA01nL._SY741_.jpg", link: "https://amzn.to/3YgIlYA" },
+    { id: 6, title: "Stylish Night Solid Bodycon Short Dress", price: "₹499", image: "https://m.media-amazon.com/images/I/31-xELNRV9L.jpg", link: "https://amzn.to/4pYvXIT" },
 ];
 
 // Load Favorites from Local Storage
@@ -66,4 +67,5 @@ function toggleWishlist() {
 }
 
 renderProducts();
+
 
