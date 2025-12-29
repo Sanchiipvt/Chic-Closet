@@ -9,7 +9,8 @@ const amazonProducts = [
         price: "₹453", 
         image: "https://m.media-amazon.com/images/I/810uc+ocbrL._SY741_.jpg", 
         link: "https://amzn.to/3Lcs3wS" 
-    }
+    },
+    { id: 5, title: "Aahwan Women's Midi Fit And Flare Dress", price: "₹474", image: "https://m.media-amazon.com/images/I/71Z0bRA01nL._SY741_.jpg", link: "https://amzn.to/3YgIlYA" }
 ];
 
 // Load Favorites from Local Storage
@@ -65,3 +66,4 @@ function toggleWishlist() {
 }
 
 renderProducts();
+
