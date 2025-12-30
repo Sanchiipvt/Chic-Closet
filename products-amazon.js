@@ -13,7 +13,8 @@ const amazonProducts = [
     { id: 5, title: "Aahwan Women's Midi Fit And Flare Dress", price: "₹474", image: "https://m.media-amazon.com/images/I/71Z0bRA01nL._SY741_.jpg", link: "https://amzn.to/3YgIlYA" },
     { id: 6, title: "Stylish Night Solid Bodycon Short Dress", price: "₹499", image: "https://m.media-amazon.com/images/I/31-xELNRV9L.jpg", link: "https://amzn.to/4pYvXIT" },
     { id: 7, title: "Midi Party Dress for Women", price: "₹459", image: "https://m.media-amazon.com/images/I/51MiYQD5FcL._SY741_.jpg", link: "https://amzn.to/4phDoK2" },
-    { id: 8, title: "Slim-Fit One-Piece ", price: "₹429", image: "https://m.media-amazon.com/images/I/71swF9bbPyL._SY741_.jpg", link: "https://amzn.to/4jjbk7L" }
+    { id: 8, title: "Slim-Fit One-Piece ", price: "₹429", image: "https://m.media-amazon.com/images/I/71swF9bbPyL._SY741_.jpg", link: "https://amzn.to/4jjbk7L" },
+    { id: 9, title: "Sleeveless Bodycon Mini Dress for Women", price: "₹429", image: "https://m.media-amazon.com/images/I/513EoLN0rwL._SX679_.jpg", link: "https://amzn.to/3Yhj0Og" }
 ];
 
 // Load Favorites from Local Storage
@@ -69,6 +70,7 @@ function toggleWishlist() {
 }
 
 renderProducts();
+
 
 
 
