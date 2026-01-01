@@ -15,8 +15,13 @@ const amazonProducts = [
     { id: 7, title: "Midi Party Dress for Women", price: "₹459", image: "https://m.media-amazon.com/images/I/51MiYQD5FcL._SY741_.jpg", link: "https://amzn.to/4phDoK2" },
     { id: 8, title: "Slim-Fit One-Piece ", price: "₹429", image: "https://m.media-amazon.com/images/I/71swF9bbPyL._SY741_.jpg", link: "https://amzn.to/4jjbk7L" },
     { id: 9, title: "Sleeveless Bodycon Mini Dress for Women", price: "₹429", image: "https://m.media-amazon.com/images/I/513EoLN0rwL._SX679_.jpg", link: "https://amzn.to/3Yhj0Og" },
-    { id: 10, title: "Mini Dress for Casual Outings", price: "₹459", image: "https://m.media-amazon.com/images/I/71luHj+P2JL._SY741_.jpg", link: "https://amzn.to/3MZ6e4n" 
-    },
+    { id: 10, title: "Mini Dress for Casual Outings", price: "₹459", image: "https://m.media-amazon.com/images/I/71luHj+P2JL._SY741_.jpg", link: "https://amzn.to/3MZ6e4n" },
+    { id: 11, title: "Solid Sleeveless Bodycon Knee Length Dress", price: "₹399", image: "https://m.media-amazon.com/images/I/51nEXy0BqKL._SY741_.jpg", link: "https://amzn.to/49h8ewp" },
+    { id: 12, title: "Off Shoulder Hosiery Western Sexy Bodycon Midi", price: "₹599", image: "https://m.media-amazon.com/images/I/810uc+ocbrL._SY741_.jpg", link: "https://amzn.to/3YPKmLp" },
+    { id: 13, title: "Women Mini Trendy Bodycon Dress | Slim-Fit One-Piece | Stylish Body-Con Dresses", price: "₹449", image: "https://m.media-amazon.com/images/I/51QuHOmMR+L._SY741_.jpg", link: "https://amzn.to/49jESO3" },
+    { id: 14, title: "Casual Wear Dress for Women ||Bodycon || Western || One Piece ", price: "₹499", image: "https://m.media-amazon.com/images/I/61zbu9cCQ9L._SY741_.jpg", link: "https://amzn.to/49gQQYt" },
+    { id: 15, title: "Fashions Soft Pre-Shrunk Polka Style Red Flared Pom-Pom Dress for Women", price: "₹999", image: "https://m.media-amazon.com/images/I/71YvmBgD7KL._SY741_.jpg", link: "https://amzn.to/4q2zwOl" },
+    
 ];
 
 // Load Favorites from Local Storage
@@ -72,6 +77,7 @@ function toggleWishlist() {
 }
 
 renderProducts();
+
 
 
 
