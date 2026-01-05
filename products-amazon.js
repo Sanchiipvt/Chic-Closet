@@ -21,7 +21,12 @@ const amazonProducts = [
     { id: 13, title: "Women Mini Trendy Bodycon Dress | Slim-Fit One-Piece | Stylish Body-Con Dresses", price: "₹449", image: "https://m.media-amazon.com/images/I/51QuHOmMR+L._SY741_.jpg", link: "https://amzn.to/49jESO3" },
     { id: 14, title: "Casual Wear Dress for Women ||Bodycon || Western || One Piece ", price: "₹499", image: "https://m.media-amazon.com/images/I/61zbu9cCQ9L._SY741_.jpg", link: "https://amzn.to/49gQQYt" },
     { id: 15, title: "Fashions Soft Pre-Shrunk Polka Style Red Flared Pom-Pom Dress for Women", price: "₹999", image: "https://m.media-amazon.com/images/I/71YvmBgD7KL._SY741_.jpg", link: "https://amzn.to/4q2zwOl" },
-    
+    { id: 16, title: "Black & White Polka Dot Midi Dress for Women", price: "₹800", image: "https://m.media-amazon.com/images/I/61FcG1UJGSL._SY741_.jpg", link: "https://amzn.to/4pk9ZyZ" },
+    { id: 17, title: "Women Poplin Floral Ruffle Neck Smocked Skater Dress", price: "₹1,249 ", image: "https://m.media-amazon.com/images/I/71yhEP94ZfL._SY741_.jpg", link: "https://amzn.to/49C3zGC" },
+    { id: 18, title: "Women's Plus Size Off-Shoulder Cocktail Fit and Flare Dresses", price: "₹1199", image: "https://m.media-amazon.com/images/I/6134H2PAj8L._SY741_.jpg",  link: "https://amzn.to/3YrfMHV" },
+    { id: 19, title: "Aahwan Women's & Girls' Black Solid Ruched Detail A-line Mini Dress", price: "₹453", image: "https://m.media-amazon.com/images/I/61PfMGSv60L._SY741_.jpg", link: "https://amzn.to/4jpFbLy" },
+    { id: 20, title: "Women's Western Solid Stretchable Racer Back Cut Out Bodycon Midi Thigh Length Dress.", price: "₹599", image: "https://m.media-amazon.com/images/I/51V9CyCvmJL._SY741_.jpg", link: "https://amzn.to/4aKEv1o" 
+    }
 ];
 
 // Load Favorites from Local Storage
@@ -77,6 +82,7 @@ function toggleWishlist() {
 }
 
 renderProducts();
+
 
 
 
