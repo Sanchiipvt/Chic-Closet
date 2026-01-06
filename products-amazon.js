@@ -25,8 +25,13 @@ const amazonProducts = [
     { id: 17, title: "Women Poplin Floral Ruffle Neck Smocked Skater Dress", price: "₹1,249 ", image: "https://m.media-amazon.com/images/I/71yhEP94ZfL._SY741_.jpg", link: "https://amzn.to/49C3zGC" },
     { id: 18, title: "Women's Plus Size Off-Shoulder Cocktail Fit and Flare Dresses", price: "₹1199", image: "https://m.media-amazon.com/images/I/6134H2PAj8L._SY741_.jpg",  link: "https://amzn.to/3YrfMHV" },
     { id: 19, title: "Aahwan Women's & Girls' Black Solid Ruched Detail A-line Mini Dress", price: "₹453", image: "https://m.media-amazon.com/images/I/61PfMGSv60L._SY741_.jpg", link: "https://amzn.to/4jpFbLy" },
-    { id: 20, title: "Women's Western Solid Stretchable Racer Back Cut Out Bodycon Midi Thigh Length Dress.", price: "₹599", image: "https://m.media-amazon.com/images/I/51V9CyCvmJL._SY741_.jpg", link: "https://amzn.to/4aKEv1o" 
-    }
+    { id: 20, title: "Women's Western Solid Stretchable Racer Back Cut Out Bodycon Midi Thigh Length Dress.", price: "₹599", image: "https://m.media-amazon.com/images/I/51V9CyCvmJL._SY741_.jpg", link: "https://amzn.to/4aKEv1o" },
+    { id: 21, title: "Women's Bodycon Midi dress", price: "₹549", image: "https://m.media-amazon.com/images/I/51H9KB8PG1L._SY741_.jpg", link: "https://amzn.to/3LedUPR" },
+    { id: 22, title: "Bodycon Dress for Women", price: "₹399", image: "https://m.media-amazon.com/images/I/61c7yHHfrVL._SY741_.jpg", link: "https://amzn.to/3YVHgFM" },
+    { id: 23, title: "Halter Neck Bodycon Mini Dress Backless", price: "₹419", image: "https://m.media-amazon.com/images/I/51fj+SfpJ0L._SY741_.jpg", link: "https://amzn.to/4aNqqjB" },
+    { id: 24, title: "Off Shoulder Ruched Bodycon Dress", price: "₹599", image: "https://m.media-amazon.com/images/I/31DL-m6C-jL.jpg", link: "https://amzn.to/49tyUdn" },
+    { id: 25, title: "Women’s Satin Midi Dress with Spaghetti Straps", price: "₹479", image: "https://m.media-amazon.com/images/I/51f9e3ZNxoL._SY741_.jpg", link: "https://amzn.to/4stzqAQ" },
+    
 ];
 
 // Load Favorites from Local Storage
@@ -82,6 +87,7 @@ function toggleWishlist() {
 }
 
 renderProducts();
+
 
 
 
