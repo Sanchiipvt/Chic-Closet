@@ -31,7 +31,29 @@ const amazonProducts = [
     { id: 23, title: "Halter Neck Bodycon Mini Dress Backless", price: "₹419", image: "https://m.media-amazon.com/images/I/51fj+SfpJ0L._SY741_.jpg", link: "https://amzn.to/4aNqqjB" },
     { id: 24, title: "Off Shoulder Ruched Bodycon Dress", price: "₹599", image: "https://m.media-amazon.com/images/I/31DL-m6C-jL.jpg", link: "https://amzn.to/49tyUdn" },
     { id: 25, title: "Women’s Satin Midi Dress with Spaghetti Straps", price: "₹479", image: "https://m.media-amazon.com/images/I/51f9e3ZNxoL._SY741_.jpg", link: "https://amzn.to/4stzqAQ" },
-    
+    { id: 26, title: "Maxi Dress for Women",  price: "₹529", image: "https://m.media-amazon.com/images/I/41ni-PNEu0L._SY741_.jpg", link: "https://amzn.to/49oTpYB" },
+    { id: 27, title: "Women's Floral Print Short Dress", price: "₹459",image: "https://i.pinimg.com/1200x/10/04/19/100419754ef0a390290cacdd91433714.jpg", link: "https://amzn.to/45yhRFQ" },
+    { 
+        id: 28, 
+        title: "Aahwan Floral Mini Dress", 
+        price: "₹453", 
+        image: "https://m.media-amazon.com/images/I/810uc+ocbrL._SY741_.jpg", 
+        link: "https://amzn.to/3Lcs3wS" 
+    },
+    { 
+        id: 4, 
+        title: "Aahwan Floral Mini Dress", 
+        price: "₹453", 
+        image: "https://m.media-amazon.com/images/I/810uc+ocbrL._SY741_.jpg", 
+        link: "https://amzn.to/3Lcs3wS" 
+    },
+    { 
+        id: 4, 
+        title: "Aahwan Floral Mini Dress", 
+        price: "₹453", 
+        image: "https://m.media-amazon.com/images/I/810uc+ocbrL._SY741_.jpg", 
+        link: "https://amzn.to/3Lcs3wS" 
+    },
 ];
 
 // Load Favorites from Local Storage
@@ -87,6 +109,7 @@ function toggleWishlist() {
 }
 
 renderProducts();
+
 
 
 
